@@ -57,12 +57,13 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
 
     // shjoog tur alga bolgono
     diceDom.style.display = 'none'
+    
 
     
-    // if (activePlayer === 0) {
-    //   activePlayer = 1;
-    // } else {
-    //   activePlayer = 0;
-    // }
+    if (activePlayer === 0) {
+      activePlayer = 1;
+    } else {
+      activePlayer = 0;
+    }
   }
 });
