@@ -77,7 +77,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
     scores[activePlayer];
 
   
-  if (scores[activePlayer] >= 10) {
+  if (scores[activePlayer] >= 100) {
     // togloomii duussan tolowt oruulna aa
     isGameover = true;
   
